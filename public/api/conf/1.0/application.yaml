@@ -9,7 +9,7 @@ servers:
   - url: https://api.service.hmrc.gov.uk
     description: Production
 paths:
-  /customs/imports/notifications/:
+  /customs/imports/notifications:
     get:
       tags:
       - customs
